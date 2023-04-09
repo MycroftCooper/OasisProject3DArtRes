@@ -1,0 +1,2 @@
+防风治沙：desert,oasis,dividing_line,scenery, farmland,afforestation,sand
+hexagonal,lowpoly,desert,oasis, farmland,afforestation,sand,one_lake,artificial_plant_tree

@@ -1,0 +1,14 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/GameRes/UI/Icon/BuildingIcons/BuildingIcons_1.tpsheet
+- Assets/GameRes/UI/Icon/BuildingIcons/BuildingIcons_2.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/GameRes/UI/Icon/BuildingIcons/BuildingIcons_1.png
+- Assets/GameRes/UI/Icon/BuildingIcons/BuildingIcons_2.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+enableDebugOutput: 0

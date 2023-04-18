@@ -206,7 +206,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Building/Building_2/field_icon.png</key>
+            <key type="filename">Building/Building_2/sandControlShrub.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>

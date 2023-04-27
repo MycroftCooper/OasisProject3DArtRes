@@ -12,6 +12,10 @@
       <relation target="" sidePair="right-right,bottom-bottom"/>
       <Button icon="ui://t09fsbe0i4mbv" controller="BuildingListCtrl" page="1"/>
     </component>
+    <component id="n28_jtrv" name="OptionMenuPage" src="jtrv2m" fileName="OptionMenuPage.xml" xy="0,0">
+      <gearDisplay controller="SettingPanelCtrl" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
     <image id="n1_jlch" name="TopBarBackground" src="i4mb8" fileName="Res/main_picker_0.png" xy="362,0" size="1171,56" group="n26_9pco"/>
     <component id="n21_jlch" name="GreenRateBar" src="jlch1q" fileName="Components/GreenRateBar.xml" xy="725,64" group="n26_9pco">
       <ProgressBar value="42" max="100"/>
@@ -41,10 +45,7 @@
     <component id="n2_jlch" name="SettingBtn" src="jlch1l" fileName="Components/Unit_IconBtn1.xml" xy="1458,9" size="37,43" group="n26_9pco">
       <Button icon="ui://t09fsbe0i4mbj" controller="SettingPanelCtrl" page="1"/>
     </component>
-    <component id="n27_lhyb" name="SettingPanel" src="lhyb1y" fileName="ConfirmWindow.xml" xy="960,540" group="n26_9pco">
-      <gearDisplay controller="SettingPanelCtrl" pages="1"/>
-    </component>
-    <group id="n26_9pco" name="TopBar" xy="362,0" size="1171,710" advanced="true">
+    <group id="n26_9pco" name="TopBar" xy="362,0" size="1171,91" advanced="true">
       <relation target="" sidePair="center-center,top-top"/>
     </group>
   </displayList>

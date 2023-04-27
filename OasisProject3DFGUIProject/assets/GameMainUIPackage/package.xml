@@ -25,7 +25,6 @@
     <component id="jlch1r" name="BuildingTab.xml" path="/Components/" exported="true"/>
     <component id="jlch1s" name="BuildingTypeBtn.xml" path="/Components/"/>
     <component id="jlch1t" name="BuildingIconCase.xml" path="/Components/" exported="true"/>
-    <component id="jlch1x" name="SettingPageUI.xml" path="/" exported="true"/>
     <component id="lhyb1y" name="ConfirmWindow.xml" path="/" exported="true"/>
     <image id="lhyb1z" name="hexagon _img.png" path="/Res/" scale="9grid" scale9grid="128,33,256,446"/>
     <component id="lhyb20" name="btn_2(1).xml" path="/Components/"/>
@@ -44,6 +43,48 @@
     <component id="n7q62j" name="BuildingDescEditBtn.xml" path="/Components/"/>
     <component id="n7q62k" name="BuildingDescDestructBtn.xml" path="/Components/"/>
     <component id="n7q62l" name="BuildingDescFocusBtn.xml" path="/Components/"/>
+    <component id="jtrv2m" name="OptionMenuPage.xml" path="/" exported="true"/>
+    <image id="jtrv2n" name="00001-253694056.png" path="/Res/"/>
+    <image id="jtrv2o" name="mainLab_img.png" path="/Res/"/>
+    <component id="jtrv2p" name="title_btn.xml" path="/Components/"/>
+    <image id="jtrv2q" name="gameTitle_img.png" path="/Res/"/>
+    <component id="jtrv2r" name="btn_1.xml" path="/Components/"/>
+    <image id="jtrv2s" name="hexagon _img(1).png" path="/Res/" scale="9grid" scale9grid="128,33,256,446"/>
+    <image id="jtrv2t" name="2_18.png" path="/Res/"/>
+    <component id="jtrv2u" name="SettingPage.xml" path="/Components/"/>
+    <component id="jtrv2v" name="Unit_LadderBtn1.xml" path="/Components/"/>
+    <image id="jtrv2w" name="2_30.png" path="/Res/"/>
+    <image id="jtrv2x" name="2_7.png" path="/Res/"/>
+    <image id="jtrv2y" name="2_31.png" path="/Res/"/>
+    <image id="jtrv2z" name="2_20.png" path="/Res/"/>
+    <component id="jtrv30" name="Unit_LadderBtn2.xml" path="/Components/"/>
+    <image id="jtrv31" name="2_28.png" path="/Res/"/>
+    <image id="jtrv32" name="2_21.png" path="/Res/"/>
+    <image id="jtrv33" name="2_29.png" path="/Res/"/>
+    <image id="jtrv34" name="2_16.png" path="/Res/"/>
+    <image id="jtrv35" name="1_32.png" path="/Res/"/>
+    <component id="jtrv36" name="Unit_Slider1.xml" path="/Components/"/>
+    <component id="jtrv37" name="Unit_SliderBtn1.xml" path="/Components/"/>
+    <image id="jtrv38" name="2_34.png" path="/Res/"/>
+    <component id="jtrv39" name="Unit_TabBtn1.xml" path="/Components/"/>
+    <image id="jtrv3a" name="2_2.png" path="/Res/"/>
+    <component id="jtrv3b" name="Unit_IconBtn1(1).xml" path="/Components/"/>
+    <image id="jtrv3c" name="2_6.png" path="/Res/"/>
+    <image id="jtrv3d" name="设置-游戏图像.png" path="/Refer/"/>
+    <component id="jtrv3e" name="ModeSelectPage.xml" path="/Components/"/>
+    <image id="jtrv3f" name="2_25.png" path="/Res/"/>
+    <image id="jtrv3g" name="loadingBackground_img.png" path="/Res/"/>
+    <component id="jtrv3h" name="Unit_Btn3.xml" path="/Components/"/>
+    <image id="jtrv3i" name="2_37.png" path="/Res/"/>
+    <image id="jtrv3j" name="2_38.png" path="/Res/"/>
+    <image id="jtrv3k" name="2_27.png" path="/Res/"/>
+    <component id="jtrv3l" name="Unit_SettingComboBox.xml" path="/Components/" exported="true"/>
+    <image id="jtrv3m" name="2_37.png" path="/Components/"/>
+    <image id="jtrv3n" name="2_23.png" path="/Components/"/>
+    <component id="jtrv3o" name="Unit_SettingComboBoxPopup.xml" path="/Components/"/>
+    <image id="jtrv3p" name="mainLab_img(1).png" path="/Res/"/>
+    <component id="jtrv3q" name="Unit_SettingComboBoxItem.xml" path="/Components/"/>
+    <image id="jtrv3r" name="main_picker_44.png" path="/Res/"/>
   </resources>
   <publish name="" genCode="true" extractAlpha="true"/>
 </packageDescription>

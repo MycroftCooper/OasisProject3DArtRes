@@ -2,7 +2,9 @@
 <component size="1920,1080">
   <controller name="IsSelectBtn" pages="6,title,0,start,4,continue,1,setting,2,about,3,exit" selected="0"/>
   <displayList>
-    <image id="n27_oii5" name="n27" src="oii5ig" fileName="Res/00001-253694056.png" xy="414,0"/>
+    <image id="n27_oii5" name="n27" src="oii5ig" fileName="Res/00001-253694056.png" xy="414,0">
+      <relation target="" sidePair="width-width,height-height,middle-middle,right-right"/>
+    </image>
     <graph id="n15_bmdr" name="TabPageBackground" xy="739,0" size="1180,1080" type="rect" lineSize="0" fillColor="#ffdd9e62">
       <gearDisplay controller="IsSelectBtn" pages="0,4,1,2,3"/>
       <relation target="" sidePair="height-height,rightext-right"/>
@@ -15,7 +17,7 @@
       <Button controller="IsSelectBtn" page="6"/>
     </component>
     <group id="n12_bmdr" name="TabHead" xy="0,0" size="800,1080" advanced="true">
-      <relation target="" sidePair="height-height,left-left"/>
+      <relation target="" sidePair="width-width,height-height,middle-middle,left-left"/>
     </group>
     <component id="n2_10tcf" name="StartBtn" src="10tcf0" fileName="Components/btn_1.xml" xy="19,587" size="700,80" group="n16_cgmu" alpha="0.85" pageController="IsSelectBtn">
       <gearSize controller="IsSelectBtn" pages="6,0,4,1,2,3" values="700,80,1,1|700,120,1,1|700,80,1,1|700,80,1,1|700,80,1,1|700,80,1,1" ease="Linear" duration="1"/>
@@ -49,9 +51,11 @@
     </group>
     <component id="n18_jlch" name="Setting" src="i4mbfg" fileName="Components/SettingPage.xml" xy="740,0">
       <gearDisplay controller="IsSelectBtn" pages="1"/>
+      <relation target="" sidePair="width-width,height-height,right-right"/>
     </component>
     <component id="n26_jlch" name="ModeSelect" src="jlchic" fileName="Components/ModeSelectPage.xml" xy="740,0">
       <gearDisplay controller="IsSelectBtn" pages="4"/>
+      <relation target="" sidePair="width-width,height-height,middle-middle,right-right"/>
     </component>
   </displayList>
 </component>

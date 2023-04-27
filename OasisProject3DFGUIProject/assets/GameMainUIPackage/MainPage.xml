@@ -3,17 +3,19 @@
   <controller name="BuildingListCtrl" pages="0,close,1,open" selected="0"/>
   <controller name="SettingPanelCtrl" pages="0,close,1,open" selected="0"/>
   <displayList>
-    <component id="n21_jlch" name="GreenRateBar" src="jlch1q" fileName="Components/GreenRateBar.xml" xy="725,64">
-      <ProgressBar value="42" max="100"/>
-    </component>
     <component id="n23_jlch" name="BuildingList" src="jlch1r" fileName="Components/BuildingTab.xml" xy="0,1160">
       <gearXY controller="BuildingListCtrl" pages="0,1" values="0,1160|0,825" tween="true"/>
+      <relation target="" sidePair="left-left,bottom-bottom,rightext-right"/>
     </component>
     <component id="n19_jlch" name="BuildBtn" src="jlch1o" fileName="Components/Unit_IconBtn2.xml" xy="1783,952" size="127,121" aspect="true">
       <gearXY controller="BuildingListCtrl" pages="0,1" values="1783,952|1752,890" tween="true"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
       <Button icon="ui://t09fsbe0i4mbv" controller="BuildingListCtrl" page="1"/>
     </component>
     <image id="n1_jlch" name="TopBarBackground" src="i4mb8" fileName="Res/main_picker_0.png" xy="362,0" size="1171,56" group="n26_9pco"/>
+    <component id="n21_jlch" name="GreenRateBar" src="jlch1q" fileName="Components/GreenRateBar.xml" xy="725,64" group="n26_9pco">
+      <ProgressBar value="42" max="100"/>
+    </component>
     <image id="n8_jlch" name="n8" src="i4mbg" fileName="Res/main_picker_16.png" xy="555,16" size="24,27" group="n25_9pco"/>
     <image id="n9_jlch" name="n9" src="i4mbh" fileName="Res/main_picker_17.png" xy="659,18" size="22,26" group="n25_9pco"/>
     <image id="n10_jlch" name="n10" src="i4mbi" fileName="Res/main_picker_18.png" xy="755,18" size="38,24" group="n25_9pco"/>
@@ -42,6 +44,8 @@
     <component id="n27_lhyb" name="SettingPanel" src="lhyb1y" fileName="ConfirmWindow.xml" xy="960,540" group="n26_9pco">
       <gearDisplay controller="SettingPanelCtrl" pages="1"/>
     </component>
-    <group id="n26_9pco" name="TopBar" xy="362,0" size="1171,710"/>
+    <group id="n26_9pco" name="TopBar" xy="362,0" size="1171,710" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
   </displayList>
 </component>

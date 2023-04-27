@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1180,1080" designImage="ui://awx3ckgti4mbh2" designImageOffsetX="-739" designImageAlpha="0" designImageLayer="1">
-  <controller name="state" pages="0,游戏图像,1,游戏音效,2,游戏控制,3,其他" selected="2"/>
+  <controller name="state" pages="0,游戏图像,1,游戏音效,2,游戏控制,3,其他" selected="0"/>
   <displayList>
     <graph id="n0_i4mb" name="TabPageBackground" xy="0,0" size="1180,1080" visible="false" touchable="false" type="rect" lineSize="0" fillColor="#ffdd9e62">
-      <relation target="" sidePair="height-height,rightext-right"/>
+      <relation target="" sidePair="width-width,height-height,rightext-right"/>
     </graph>
-    <component id="n29_i4mb" name="TabBtn1" src="i4mbi6" fileName="Components/Unit_LadderBtn1.xml" xy="40,26">
-      <Button icon="ui://awx3ckgti4mbhb" controller="state" page="0"/>
+    <component id="n29_i4mb" name="TabBtn1" src="i4mbi6" fileName="Components/Unit_LadderBtn1.xml" xy="40,26" group="n72_irh0">
+      <Button checked="true" icon="ui://awx3ckgti4mbhb" controller="state" page="0"/>
     </component>
-    <component id="n30_i4mb" name="TabBtn2" src="i4mbi7" fileName="Components/Unit_LadderBtn2.xml" xy="209,30">
+    <component id="n30_i4mb" name="TabBtn2" src="i4mbi7" fileName="Components/Unit_LadderBtn2.xml" xy="209,30" group="n72_irh0">
       <Button controller="state" page="1"/>
     </component>
-    <component id="n31_i4mb" name="TabBtn3" src="i4mbi6" fileName="Components/Unit_LadderBtn1.xml" xy="376,24">
-      <Button checked="true" controller="state" page="2"/>
+    <component id="n31_i4mb" name="TabBtn3" src="i4mbi6" fileName="Components/Unit_LadderBtn1.xml" xy="376,24" group="n72_irh0">
+      <Button controller="state" page="2"/>
     </component>
-    <component id="n32_i4mb" name="TabBtn4" src="i4mbi7" fileName="Components/Unit_LadderBtn2.xml" xy="538,28" visible="false">
+    <component id="n32_i4mb" name="TabBtn4" src="i4mbi7" fileName="Components/Unit_LadderBtn2.xml" xy="538,28" group="n72_irh0" visible="false">
       <Button icon="ui://awx3ckgti4mbi3" controller="state" page="3"/>
     </component>
-    <text id="n7_i4mb" name="title" xy="46,149" size="238,78" fontSize="53" color="#ffffff" autoSize="none" text="游戏控制">
+    <text id="n7_i4mb" name="title" xy="46,149" size="238,78" group="n72_irh0" fontSize="53" color="#ffffff" autoSize="none" text="游戏图像">
       <gearText controller="state" pages="1,2,3" values="游戏音效|游戏控制|其他" default="游戏图像"/>
     </text>
-    <image id="n8_i4mb" name="n8" src="lzb4f7" fileName="Res/MainUI/2_36.png" xy="91,250" size="979,68" group="n28_i4mb"/>
+    <group id="n72_irh0" name="n72" xy="40,24" size="650,203" advanced="true">
+      <relation target="" sidePair="width-width,left-left,top-top"/>
+    </group>
+    <image id="n8_i4mb" name="n8" src="lzb4f7" fileName="Res/1_32.png" xy="91,250" size="979,68" group="n28_i4mb"/>
     <text id="n12_i4mb" name="n12" xy="167,257" size="238,54" group="n28_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="分辨率"/>
-    <image id="n13_i4mb" name="n13" src="lzb4f7" fileName="Res/MainUI/2_36.png" xy="96,456" size="979,68" group="n28_i4mb"/>
+    <image id="n13_i4mb" name="n13" src="lzb4f7" fileName="Res/1_32.png" xy="96,456" size="979,68" group="n28_i4mb"/>
     <text id="n14_i4mb" name="n14" xy="171,463" size="238,54" group="n28_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="其他"/>
     <text id="n15_i4mb" name="n15" xy="120,532" size="238,54" group="n28_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="画面质量"/>
     <text id="n16_i4mb" name="n16" xy="120,777" size="238,54" group="n28_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="垂直同步"/>
@@ -93,6 +96,7 @@
     </component>
     <group id="n28_i4mb" name="ViewSetting" xy="91,250" size="984,760" advanced="true">
       <gearDisplay controller="state" pages="0"/>
+      <relation target="" sidePair="width-width,height-height,rightext-right"/>
     </group>
     <component id="n35_i4mb" name="slider1" src="i4mbi9" fileName="Components/Unit_Slider1.xml" xy="547,270" size="598,50" group="n38_i4mb">
       <Slider value="50" max="100"/>
@@ -108,8 +112,9 @@
     <text id="n42_i4mb" name="n42" xy="96,447" size="238,54" group="n38_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="特效音量"/>
     <group id="n38_i4mb" name="AudioSetting" xy="96,264" size="1049,239" advanced="true">
       <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="width-width,height-height,rightext-right"/>
     </group>
-    <image id="n43_i4mb" name="n43" src="lzb4f7" fileName="Res/MainUI/2_36.png" xy="109,250" size="979,68" group="n46_i4mb"/>
+    <image id="n43_i4mb" name="n43" src="lzb4f7" fileName="Res/1_32.png" xy="109,250" size="979,68" group="n46_i4mb"/>
     <text id="n44_i4mb" name="n44" xy="185,257" size="238,54" group="n46_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="通用"/>
     <text id="n45_i4mb" name="n45" xy="217,341" size="238,54" group="n46_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="移动镜头"/>
     <text id="n47_i4mb" name="n47" xy="219,440" size="281,54" group="n46_i4mb" fontSize="40" color="#ffffff" autoSize="none" text="提升镜头移动速度"/>
@@ -137,6 +142,8 @@
     <component id="n69_i4mb" name="ResetBtn8" src="i4mbia" fileName="Components/Unit_IconBtn1.xml" xy="1002,989" group="n46_i4mb"/>
     <group id="n46_i4mb" name="ControlSetting" xy="109,250" size="979,791" advanced="true">
       <gearDisplay controller="state" pages="2"/>
+      <relation target="" sidePair="width-width,height-height,rightext-right"/>
     </group>
+    <loader id="n70_irh0" name="n70" xy="-830,53" size="50,50"/>
   </displayList>
 </component>

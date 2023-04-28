@@ -10,14 +10,14 @@
       <relation target="" sidePair="height-height,rightext-right"/>
     </graph>
     <image id="n13_bmdr" name="TabBtnBackground" src="bmdrf1" fileName="Res/mainLab_img.png" xy="0,0" group="n12_bmdr">
-      <relation target="" sidePair="height-height,left-left"/>
+      <relation target="" sidePair="height-height"/>
     </image>
     <component id="n11_bmdr" name="TitleBtn" src="bmdrf2" fileName="Components/title_btn.xml" xy="38,100" size="658,400" group="n12_bmdr" aspect="true">
-      <relation target="" sidePair="top-top"/>
+      <relation target="" sidePair="height-height"/>
       <Button controller="IsSelectBtn" page="6"/>
     </component>
     <group id="n12_bmdr" name="TabHead" xy="0,0" size="800,1080" advanced="true">
-      <relation target="" sidePair="width-width,height-height,middle-middle,left-left"/>
+      <relation target="" sidePair="width-width,height-height,left-left"/>
     </group>
     <component id="n2_10tcf" name="StartBtn" src="10tcf0" fileName="Components/btn_1.xml" xy="19,587" size="700,80" group="n16_cgmu" alpha="0.85" pageController="IsSelectBtn">
       <gearSize controller="IsSelectBtn" pages="6,0,4,1,2,3" values="700,80,1,1|700,120,1,1|700,80,1,1|700,80,1,1|700,80,1,1|700,80,1,1" ease="Linear" duration="1"/>
@@ -39,7 +39,9 @@
       <gearSize controller="IsSelectBtn" pages="6,0,4,1,2,3" values="700,80,1,1|700,80,1,1|700,80,1,1|700,80,1,1|700,80,1,1|700,120,1,1" ease="Linear" duration="1"/>
       <Button title="退出游戏" titleFontSize="60" controller="IsSelectBtn" page="3"/>
     </component>
-    <group id="n16_cgmu" name="TabBtns" xy="19,587" size="700,400" advanced="true" layout="vt" excludeInvisibles="true"/>
+    <group id="n16_cgmu" name="TabBtns" xy="19,587" size="700,400" advanced="true" layout="vt" excludeInvisibles="true">
+      <relation target="" sidePair="left-left,bottom-bottom,topext-top"/>
+    </group>
     <image id="n19_jlch" name="n19" src="i4mbhv" fileName="Res/2_18.png" xy="848,140" size="175,203" group="n25_jlch"/>
     <image id="n20_jlch" name="n20" src="i4mbhv" fileName="Res/2_18.png" xy="921,474" size="103,116" group="n25_jlch"/>
     <text id="n21_jlch" name="n21" xy="1140,195" size="499,105" group="n25_jlch" fontSize="77" color="#ffffff" autoSize="none" text="主创: 刘一凡"/>

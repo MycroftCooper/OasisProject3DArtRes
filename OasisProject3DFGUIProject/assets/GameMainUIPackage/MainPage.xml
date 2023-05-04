@@ -2,20 +2,9 @@
 <component size="1920,1080" designImage="ui://t09fsbe0jlch1j" designImageAlpha="0" designImageLayer="1">
   <controller name="BuildingListCtrl" pages="0,Close,1,Open" selected="0"/>
   <controller name="SettingPanelCtrl" pages="0,Close,1,Open" selected="0"/>
-  <controller name="BuildingDescTabCtrl" pages="0,Close,1,Open" selected="0"/>
   <displayList>
-    <component id="n19_jlch" name="BuildBtn" src="jlch1o" fileName="Components/Unit_IconBtn2.xml" xy="1783,952" size="127,121" aspect="true">
-      <gearXY controller="BuildingListCtrl" pages="0,1" values="1783,952|1752,890" tween="true"/>
-      <Button icon="ui://t09fsbe0i4mbv" controller="BuildingListCtrl" page="1"/>
-    </component>
-    <component id="n23_jlch" name="BuildingList" src="jlch1r" fileName="Components/BuildingTab.xml" xy="0,1160">
-      <gearXY controller="BuildingListCtrl" pages="0,1" values="0,1160|0,825" tween="true"/>
-    </component>
     <component id="n27_lhyb" name="SettingPanel" src="lhyb1y" fileName="ConfirmWindow.xml" xy="960,540">
       <gearDisplay controller="SettingPanelCtrl" pages="1"/>
-    </component>
-    <component id="n28_iz0l" name="BuildingDecsTab" src="jobk20" fileName="BuildingDescTab.xml" xy="1950,70">
-      <gearXY controller="BuildingDescTabCtrl" pages="0,1" values="1950,70|1430,70" tween="true"/>
     </component>
     <image id="n1_jlch" name="TopBarBackground" src="i4mb8" fileName="Res/main_picker_0.png" xy="362,0" size="1171,56" group="n26_9pco"/>
     <image id="n8_jlch" name="n8" src="qo0z2v" fileName="Res/BuildingDescTab/绿叶资源图标.png" xy="544,14" size="35,33" group="n25_9pco"/>
@@ -47,5 +36,13 @@
       <Button icon="ui://t09fsbe0i4mbj" controller="SettingPanelCtrl" page="1"/>
     </component>
     <group id="n26_9pco" name="TopBar" xy="362,0" size="1171,91"/>
+    <component id="n23_jlch" name="BuildingList" src="jlch1r" fileName="Components/BuildingList/BuildingTab.xml" xy="0,1160" group="n29_clc2">
+      <gearXY controller="BuildingListCtrl" pages="0,1" values="0,1160|0,825" tween="true"/>
+    </component>
+    <component id="n19_jlch" name="BuildBtn" src="jlch1o" fileName="Components/BuildingList/BuildingListBtn.xml" xy="1783,952" size="127,121" group="n29_clc2" aspect="true">
+      <gearXY controller="BuildingListCtrl" pages="0,1" values="1783,952|1752,890" tween="true"/>
+      <Button icon="ui://t09fsbe0i4mbv" controller="BuildingListCtrl" page="1"/>
+    </component>
+    <group id="n29_clc2" name="n29" xy="0,952" size="1920,463"/>
   </displayList>
 </component>

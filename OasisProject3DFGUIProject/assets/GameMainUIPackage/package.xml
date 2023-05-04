@@ -21,11 +21,10 @@
     <component id="jlch1r" name="BuildingTab.xml" path="/Components/BuildingList/" exported="true"/>
     <component id="jlch1s" name="BuildingTypeBtn.xml" path="/Components/BuildingList/"/>
     <component id="jlch1t" name="BuildingIconCase.xml" path="/Components/BuildingList/" exported="true"/>
-    <component id="jlch1x" name="SettingPageUI.xml" path="/" exported="true"/>
     <component id="lhyb1y" name="ConfirmWindow.xml" path="/" exported="true"/>
     <image id="lhyb1z" name="hexagon _img.png" path="/Res/" scale="9grid" scale9grid="128,33,256,446"/>
     <component id="lhyb20" name="btn_2(1).xml" path="/Components/"/>
-    <component id="jobk20" name="BuildingDescTab.xml" path="/Components/BuildingDesc/" exported="true"/>
+    <component id="jobk20" name="BuildingDescTab.xml" path="/" exported="true"/>
     <component id="jobk2g" name="SwitchBtn.xml" path="/Components/BuildingDesc/Btn/"/>
     <component id="n7q62i" name="BuildingDescShiftBuildingBtn.xml" path="/Components/BuildingDesc/Btn/"/>
     <image id="qo0z2m" name="建筑基础信息菜单1.png" path="/Refer/"/>
@@ -101,15 +100,15 @@
     <image id="qo0z4k" name="建筑图标1.png" path="/Res/BuildingDescTab/"/>
     <image id="qo0z4l" name="资源标签2.png" path="/Res/BuildingDescTab/"/>
     <misc id="qo0z4m" name="绿洲计划建筑建造UI20230502 .json" path="/Res/BuildingDescTab/"/>
-    <component id="qo0z4n" name="BuildingIconCaseHex.xml" path="/Components/BuildingDesc/"/>
+    <component id="qo0z4n" name="BuildingIconCaseHex.xml" path="/Components/BuildingDesc/" exported="true"/>
     <component id="qo0z4o" name="BuildingIconHex.xml" path="/Components/"/>
     <component id="qo0z4p" name="BuildingDescStateIcon.xml" path="/Components/BuildingDesc/"/>
     <component id="qo0z4q" name="BuildingDescBaseInfo.xml" path="/Components/BuildingDesc/" exported="true"/>
-    <component id="qo0z4r" name="BuildingDescBuildCostInfoBox.xml" path="/Components/BuildingDesc/"/>
-    <component id="qo0z4t" name="ResIconProgressBar.xml" path="/Components/BuildingDesc/ProgressBar/"/>
-    <component id="qo0z4v" name="LeftTimeProgressBar.xml" path="/Components/BuildingDesc/ProgressBar/"/>
-    <component id="qo0z4w" name="LeftTimeProgressBar2.xml" path="/Components/BuildingDesc/ProgressBar/"/>
-    <component id="qo0z4x" name="BuildingDescProduceInfoBox.xml" path="/Components/BuildingDesc/"/>
+    <component id="qo0z4r" name="BuildingDescBuildCostInfoBox.xml" path="/Components/BuildingDesc/" exported="true"/>
+    <component id="qo0z4t" name="ResIconProgressBar.xml" path="/Components/BuildingDesc/ProgressBar/" exported="true"/>
+    <component id="qo0z4v" name="LeftTimeProgressBar.xml" path="/Components/BuildingDesc/ProgressBar/" exported="true"/>
+    <component id="qo0z4w" name="LeftTimeProgressBar2.xml" path="/Components/BuildingDesc/ProgressBar/" exported="true"/>
+    <component id="qo0z4x" name="BuildingDescProduceInfoBox.xml" path="/Components/BuildingDesc/" exported="true"/>
     <component id="qo0z4y" name="BuildingOperationBtn.xml" path="/Components/BuildingDesc/Btn/"/>
     <image id="iz0l52" name="bar.png" path="/Res/BuildingDescTab/"/>
   </resources>

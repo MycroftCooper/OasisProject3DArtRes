@@ -124,11 +124,11 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>Building/BuildingIcons_{n}.tpsheet</filename>
+                <filename>ResIcon.tpsheet</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
-        <enum type="SettingsBase::MultiPackMode">MultiPackManual</enum>
+        <enum type="SettingsBase::MultiPackMode">MultiPackOff</enum>
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
@@ -141,7 +141,7 @@
             <string></string>
         </struct>
         <key>autoAliasEnabled</key>
-        <false/>
+        <true/>
         <key>trimSpriteNames</key>
         <false/>
         <key>prependSmartFolderName</key>
@@ -155,13 +155,13 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>0</uint>
+            <uint>1</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Crop</enum>
+            <enum type="SpriteSettings::TrimMode">Polygon</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -173,10 +173,7 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">Building/Building_1/centerTower_icon.png</key>
-            <key type="filename">Building/Building_1/firePowerStation_icon.png</key>
-            <key type="filename">Building/Building_2/sandControlGrass_icon.png</key>
-            <key type="filename">Building/Building_2/windbreakTree_icon.png</key>
+            <key type="filename">SourceImages/BuildingRes_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -185,13 +182,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>256,256,512,512</rect>
+                <rect>36,35,71,71</rect>
                 <key>scale9Paddings</key>
-                <rect>256,256,512,512</rect>
+                <rect>36,35,71,71</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Building/Building_1/solarPowerStation_icon.png</key>
+            <key type="filename">SourceImages/Power_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -200,13 +197,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>256,256,513,513</rect>
+                <rect>48,38,95,75</rect>
                 <key>scale9Paddings</key>
-                <rect>256,256,513,513</rect>
+                <rect>48,38,95,75</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Building/Building_2/sandControlShrub.png</key>
+            <key type="filename">SourceImages/Seedling_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -215,13 +212,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>256,256,513,512</rect>
+                <rect>42,36,84,72</rect>
                 <key>scale9Paddings</key>
-                <rect>256,256,513,512</rect>
+                <rect>42,36,84,72</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Building/Building_2/windPowerStation_icon.png</key>
+            <key type="filename">SourceImages/Water_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -230,27 +227,20 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>256,256,511,511</rect>
+                <rect>44,42,88,84</rect>
                 <key>scale9Paddings</key>
-                <rect>256,256,511,511</rect>
+                <rect>44,42,88,84</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileLists</key>
         <map type="SpriteSheetMap">
-            <key>1</key>
+            <key>default</key>
             <struct type="SpriteSheet">
                 <key>files</key>
                 <array>
-                    <filename>Building/Building_1</filename>
-                </array>
-            </struct>
-            <key>2</key>
-            <struct type="SpriteSheet">
-                <key>files</key>
-                <array>
-                    <filename>Building/Building_2</filename>
+                    <filename>SourceImages</filename>
                 </array>
             </struct>
         </map>
@@ -259,9 +249,7 @@
         <key>replaceList</key>
         <array/>
         <key>ignoredWarnings</key>
-        <array>
-            <string>unity-importer-6.0.3</string>
-        </array>
+        <array/>
         <key>commonDivisorX</key>
         <uint>1</uint>
         <key>commonDivisorY</key>

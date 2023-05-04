@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,178">
+  <controller name="BuildingStateIconCtrl" exported="true" pages="0,ToBuild,1,Building,2,Open,3,Close,4,Move,5,Upgrade,6,Destruction,7,Fixing" selected="4"/>
+  <displayList>
+    <image id="n9_qo0z" name="n9" src="qo0z3o" fileName="Res/BuildingDescTab/建筑状态图标底层.png" xy="10,15">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n0_qo0z" name="n1" src="qo0z3a" fileName="Res/BuildingDescTab/未建造.png" xy="28,26" size="122,126" aspect="true">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="0"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n1_qo0z" name="n2" src="qo0z44" fileName="Res/BuildingDescTab/建造中.png" xy="18,18">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="1"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n2_qo0z" name="n3" src="qo0z2u" fileName="Res/BuildingDescTab/开启.png" xy="25,32" pivot="0.5,0.5">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="2"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n3_qo0z" name="n4" src="qo0z3y" fileName="Res/BuildingDescTab/关闭.png" xy="27,34">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="3"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n4_qo0z" name="n5" src="qo0z3d" fileName="Res/BuildingDescTab/移动.png" xy="38,38" size="101,101">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="4"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n5_qo0z" name="n6" src="qo0z2y" fileName="Res/BuildingDescTab/升级.png" xy="45,29">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="5"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n6_qo0z" name="n7" src="qo0z40" fileName="Res/BuildingDescTab/毁坏.png" xy="19,19">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="6"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n7_qo0z" name="n8" src="qo0z3c" fileName="Res/BuildingDescTab/修复.png" xy="33,36" size="112,105" aspect="true">
+      <gearDisplay controller="BuildingStateIconCtrl" pages="7"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <image id="n8_qo0z" name="n0" src="qo0z4c" fileName="Res/BuildingDescTab/建筑状态图标.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

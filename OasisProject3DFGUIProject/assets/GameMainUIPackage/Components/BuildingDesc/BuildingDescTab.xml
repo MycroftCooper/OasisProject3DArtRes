@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800" designImage="ui://t09fsbe0qo0z2m" designImageAlpha="0" designImageLayer="1" bgColor="#ffcc33">
+  <controller name="buildingStateCtrl" pages="8,ToBuild,3,Move,2,Building,0,Open,1,Close,4,Upgrade,5,Destroy,9,Fixing" selected="0">
+    <action type="change_page" fromPage="" toPage="8" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="6"/>
+    <action type="change_page" fromPage="" toPage="9" objectId="n50_qo0z" controller="BuildingStateIconCtrl" targetPage="7"/>
+    <action type="change_page" fromPage="" toPage="8,3" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2,9" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n49_qo0z" controller="BuildingIconCaseStateCtrl" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="8" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="9" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="10"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="11"/>
+  </controller>
+  <controller name="CanUpgrade" pages="1,Cant,0,Can" selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n55_qo0z" controller="BuildInfoCtrl" targetPage="3"/>
+  </controller>
+  <displayList>
+    <image id="n46_qo0z" name="n46" src="qo0z4j" fileName="Res/BuildingDescTab/建筑基础信息描述菜单.png" xy="0,2" size="478,796">
+      <relation target="n63_qo0z" sidePair="bottomext-bottom"/>
+    </image>
+    <component id="n49_qo0z" name="IconCase" src="qo0z4n" fileName="Components/BuildingDesc/BuildingIconCaseHex.xml" xy="113,-9" size="254,271" group="n15_jobk"/>
+    <component id="n50_qo0z" name="StateIcon" src="qo0z4p" fileName="Components/BuildingDesc/BuildingDescStateIcon.xml" xy="299,25" size="77,77" group="n15_jobk" aspect="true"/>
+    <component id="n34_n7q6" name="nextBuilding" src="n7q62i" fileName="Components/BuildingDesc/Btn/BuildingDescShiftBuildingBtn.xml" xy="419,101" size="30,46" group="n15_jobk" scale="1.5,1.5"/>
+    <component id="n47_qo0z" name="lastBuilding" src="n7q62i" fileName="Components/BuildingDesc/Btn/BuildingDescShiftBuildingBtn.xml" xy="40,102" size="30,46" group="n15_jobk" scale="-1.5,1.5"/>
+    <group id="n15_jobk" name="Head" xy="40,-9" size="409,271"/>
+    <component id="n53_qo0z" name="BasicInfoBox" src="qo0z4q" fileName="Components/BuildingDesc/BuildingDescBaseInfo.xml" xy="24,231" size="430,127" group="n63_qo0z"/>
+    <component id="n55_qo0z" name="CostInfoBox" src="qo0z4r" fileName="Components/BuildingDesc/BuildingDescBuildCostInfoBox.xml" xy="12,358" group="n63_qo0z" controller="BuildInfoCtrl,0">
+      <gearDisplay controller="buildingStateCtrl" pages="8,2,4,5,9"/>
+      <gearDisplay2 controller="CanUpgrade" pages="0" condition="1"/>
+    </component>
+    <component id="n56_qo0z" name="ProduceInfoBox" src="qo0z4x" fileName="Components/BuildingDesc/BuildingDescProduceInfoBox.xml" xy="12,514" group="n63_qo0z">
+      <gearDisplay controller="buildingStateCtrl" pages="8,0,1"/>
+    </component>
+    <group id="n63_qo0z" name="Body" xy="12,231" size="456,560" advanced="true" layout="vt" excludeInvisibles="true"/>
+    <component id="n57_qo0z" name="DeletBtn" src="qo0z4y" fileName="Components/BuildingDesc/Btn/BuildingOperationBtn.xml" xy="311,157" size="50,50" group="n61_qo0z" touchable="false" grayed="true">
+      <gearDisplay controller="buildingStateCtrl" pages="2,0,1,4,5,9"/>
+      <gearLook controller="buildingStateCtrl" pages="8,3" values="1,0,1,0|1,0,1,0" default="1,0,0,1"/>
+      <Button title="移除" icon="ui://t09fsbe0qo0z3t"/>
+    </component>
+    <component id="n58_qo0z" name="UpgradeBtn" src="qo0z4y" fileName="Components/BuildingDesc/Btn/BuildingOperationBtn.xml" xy="118,27" size="50,50" group="n61_qo0z" touchable="false" grayed="true">
+      <gearDisplay controller="buildingStateCtrl" pages="0,1"/>
+      <gearLook controller="CanUpgrade" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="升级" icon="ui://t09fsbe0qo0z2y"/>
+    </component>
+    <component id="n59_qo0z" name="RebuildBtn" src="qo0z4y" fileName="Components/BuildingDesc/Btn/BuildingOperationBtn.xml" xy="115,157" size="50,50" group="n61_qo0z" touchable="false" grayed="true">
+      <gearDisplay controller="buildingStateCtrl" pages="5"/>
+      <gearLook controller="buildingStateCtrl" pages="8,3,2,0,1,4,5,9" values="1,0,1,0|1,0,1,0|1,0,1,0|1,0,1,0|1,0,1,0|1,0,1,0|1,0,0,1|1,0,1,0"/>
+      <Button title="修复" icon="ui://t09fsbe0qo0z3c"/>
+    </component>
+    <component id="n60_qo0z" name="MoveBtn" src="qo0z4y" fileName="Components/BuildingDesc/Btn/BuildingOperationBtn.xml" xy="214,209" size="50,50" group="n61_qo0z" touchable="false" grayed="true">
+      <gearDisplay controller="buildingStateCtrl" pages="2,0,1,4"/>
+      <gearLook controller="buildingStateCtrl" pages="2,0,1,4" values="1,0,0,1|1,0,0,1|1,0,0,1|1,0,0,1" default="1,0,1,0"/>
+      <Button title="移动" icon="ui://t09fsbe0qo0z3d"/>
+    </component>
+    <component id="n62_qo0z" name="SwitchBtn" src="jobk2g" fileName="Components/BuildingDesc/Btn/SwitchBtn.xml" xy="363,221" group="n61_qo0z">
+      <gearDisplay controller="buildingStateCtrl" pages="0,1"/>
+    </component>
+    <group id="n61_qo0z" name="n61" xy="115,27" size="334,238"/>
+  </displayList>
+</component>

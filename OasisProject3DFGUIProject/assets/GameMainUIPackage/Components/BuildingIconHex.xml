@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" overflow="hidden" mask="n5_qo0z">
+  <displayList>
+    <image id="n5_qo0z" name="n5" src="qo0z4f" fileName="Res/BuildingDescTab/建筑图标.png" xy="9,1" size="183,200" aspect="true"/>
+    <loader id="n1_qo0z" name="BuildingIcon" xy="0,0" size="200,200" url="ui://t09fsbe0i4mbs" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

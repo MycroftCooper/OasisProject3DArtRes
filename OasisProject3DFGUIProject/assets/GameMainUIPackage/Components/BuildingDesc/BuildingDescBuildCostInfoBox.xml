@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="456,156">
+  <controller name="BuildInfoCtrl" exported="true" pages="0,BuildCost,1,BuildProgress,2,UpgradeProgress,3,UpgradeCost,11,RebuildCost,10,RebuildProgress" selected="0"/>
+  <displayList>
+    <image id="n2_qo0z" name="n2" src="qo0z47" fileName="Res/BuildingDescTab/建筑消耗框.png" xy="0,0" size="466,166"/>
+    <image id="n0_qo0z" name="n0" src="qo0z4h" fileName="Res/BuildingDescTab/建筑名称.png" xy="0,-7" size="175,67" aspect="true"/>
+    <text id="n1_qo0z" name="Title" xy="9,7" size="155,36" fontSize="24" align="center" autoSize="none" text="建造花费">
+      <gearText controller="BuildInfoCtrl" pages="0,1,2,3,11,10" values="建造花费|建造中|升级中|升级花费|重建花费|重建中"/>
+    </text>
+    <list id="n3_qo0z" name="ResLest" xy="28,47" size="411,81" layout="row" overflow="scroll" scroll="horizontal" lineGap="5" colGap="15" defaultItem="ui://t09fsbe0qo0z4t" autoItemSize="false" align="center" autoClearItems="true">
+      <gearDisplay controller="BuildInfoCtrl" pages="0,3,11"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_qo0z" name="BuildProgressBar" src="qo0z4v" fileName="Components/BuildingDesc/ProgressBar/LeftTimeProgressBar.xml" xy="50,54">
+      <gearDisplay controller="BuildInfoCtrl" pages="1,10"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n5_qo0z" name="UpgradeProgressBar" src="qo0z4w" fileName="Components/BuildingDesc/ProgressBar/LeftTimeProgressBar2.xml" xy="49,53">
+      <gearDisplay controller="BuildInfoCtrl" pages="2"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="254,271" pivot="0.5,0.5">
+  <controller name="BuildingIconCaseStateCtrl" exported="true" pages="0,ToBuild,1,Building,2,Open,3,Close,4,Upgrade,5,Destroy" selected="0"/>
+  <displayList>
+    <image id="n1_qo0z" name="n1" src="qo0z4e" fileName="Res/BuildingDescTab/建筑图标0.png" xy="0,0">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="0"/>
+    </image>
+    <image id="n2_qo0z" name="n2" src="qo0z4k" fileName="Res/BuildingDescTab/建筑图标1.png" xy="0,0">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="1"/>
+    </image>
+    <image id="n3_qo0z" name="n3" src="qo0z4d" fileName="Res/BuildingDescTab/建筑图标2.png" xy="0,0">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="2"/>
+    </image>
+    <image id="n4_qo0z" name="n4" src="qo0z4b" fileName="Res/BuildingDescTab/建筑图标3.png" xy="0,0">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="3"/>
+    </image>
+    <image id="n5_qo0z" name="n5" src="qo0z4a" fileName="Res/BuildingDescTab/建筑图标4.png" xy="0,0">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="4"/>
+    </image>
+    <image id="n6_qo0z" name="n6" src="qo0z49" fileName="Res/BuildingDescTab/建筑图标5.png" xy="0,0" size="254,271">
+      <gearDisplay controller="BuildingIconCaseStateCtrl" pages="5"/>
+    </image>
+    <image id="n0_qo0z" name="n0" src="qo0z4f" fileName="Res/BuildingDescTab/建筑图标.png" xy="23,23" size="205,224"/>
+    <component id="n10_qo0z" name="n10" src="qo0z4o" fileName="Components/BuildingIconHex.xml" xy="26,34"/>
+  </displayList>
+</component>

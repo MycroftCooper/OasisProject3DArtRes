@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="ProgressBar">
+  <controller name="ColorCtrl" exported="true" pages="0,Green,1,Yellow,2,Blue,3,Red" selected="0"/>
+  <controller name="ModeCtrl" exported="true" pages="0,Progress,1,Speed" selected="1"/>
+  <displayList>
+    <graph id="n3_qo0z" name="n3" xy="0,0" size="80,80" aspect="true" type="eclipse" lineSize="0" fillColor="#ffdb9f60">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </graph>
+    <image id="n10_iz0l" name="bar" src="iz0l52" fileName="Res/BuildingDescTab/bar.png" xy="1,0" size="78,78" color="#00cc00" fillMethod="radial360">
+      <gearColor controller="ColorCtrl" pages="0,1,2,3" values="#00cc00|#fde517|#00ccff|#ff3300"/>
+    </image>
+    <image id="n0_qo0z" name="n0" src="qo0z3e" fileName="Res/BuildingDescTab/圆形进度框.png" xy="0,-1" size="81,81" aspect="true">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </image>
+    <loader id="n5_qo0z" name="ResIcon" xy="9,9" size="59,59" aspect="true" url="ui://t09fsbe0qo0z38" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </loader>
+    <text id="n6_qo0z" name="title" xy="18,48" size="45,30" fontSize="14" align="center" vAlign="middle" autoSize="none" text="10/10">
+      <gearDisplay controller="ModeCtrl" pages="0"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </text>
+    <text id="n11_iz0l" name="Speed" xy="15,46" size="49,30" fontSize="14" align="center" vAlign="middle" autoSize="none" text="3/min">
+      <gearDisplay controller="ModeCtrl" pages="1"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

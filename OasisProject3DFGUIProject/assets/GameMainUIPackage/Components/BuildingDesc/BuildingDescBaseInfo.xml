@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,176">
+  <displayList>
+    <image id="n2_qo0z" name="n2" src="qo0z4i" fileName="Res/BuildingDescTab/建筑描述文本框.png" xy="-25,22" size="483,100">
+      <relation target="n3_qo0z" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n3_qo0z" name="Desc" xy="23,52" size="387,50" fontSize="18" autoSize="height" text="用於種植和飼養的農業土地和設施，以生產食物和其他產品"/>
+    <image id="n0_qo0z" name="n0" src="qo0z4h" fileName="Res/BuildingDescTab/建筑名称.png" xy="-2,-2" size="175,67" aspect="true"/>
+    <text id="n1_qo0z" name="Name" xy="4,10" size="162,36" fontSize="26" align="center" autoSize="none" text="农场&#xA;"/>
+  </displayList>
+</component>

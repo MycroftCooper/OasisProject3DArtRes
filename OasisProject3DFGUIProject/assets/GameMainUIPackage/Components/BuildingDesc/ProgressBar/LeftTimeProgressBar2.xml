@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="366,65" extention="ProgressBar">
+  <displayList>
+    <image id="n0_qo0z" name="n0" src="qo0z2t" fileName="Res/BuildingDescTab/进度条2.png" xy="0,0" size="366,65">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_qo0z" name="bar" src="qo0z30" fileName="Res/BuildingDescTab/升级进度条2.png" xy="17,18" size="329,32"/>
+    <image id="n2_qo0z" name="n2" src="qo0z3u" fileName="Res/BuildingDescTab/倒计时.png" xy="5,15" size="36,43" aspect="true"/>
+    <text id="n3_qo0z" name="LeftTime" xy="0,16" size="366,34" fontSize="16" align="center" vAlign="middle" autoSize="none" text="00:55"/>
+    <image id="n4_qo0z" name="n4" src="qo0z3u" fileName="Res/BuildingDescTab/倒计时.png" xy="327,13" size="36,43" aspect="true"/>
+  </displayList>
+  <ProgressBar/>
+</component>

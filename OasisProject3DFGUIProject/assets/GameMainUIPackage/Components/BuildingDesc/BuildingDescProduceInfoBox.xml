@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,277">
+  <displayList>
+    <image id="n0_qo0z" name="n0" src="qo0z47" fileName="Res/BuildingDescTab/建筑消耗框.png" xy="0,-8" size="462,303"/>
+    <image id="n1_qo0z" name="n1" src="qo0z4h" fileName="Res/BuildingDescTab/建筑名称.png" xy="0,1" size="175,67" aspect="true"/>
+    <text id="n2_qo0z" name="Title" xy="9,15" size="155,36" fontSize="24" align="center" autoSize="none" text="生产与消耗"/>
+    <list id="n3_qo0z" name="ProduceResList" xy="24,60" size="409,83" layout="row" overflow="scroll" scroll="horizontal" lineGap="5" colGap="15" defaultItem="ui://t09fsbe0qo0z4t" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_qo0z" name="n4" src="qo0z3x" fileName="Res/BuildingDescTab/分割线.png" xy="12,143"/>
+    <list id="n5_qo0z" name="ConsumeResList" xy="24,161" size="409,83" layout="row" overflow="scroll" scroll="horizontal" lineGap="5" colGap="15" defaultItem="ui://t09fsbe0qo0z4t" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item controllers="ColorCtrl,1"/>
+      <item controllers="ColorCtrl,1"/>
+      <item controllers="ColorCtrl,1"/>
+      <item controllers="ColorCtrl,1"/>
+      <item controllers="ColorCtrl,1"/>
+      <item controllers="ColorCtrl,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>
